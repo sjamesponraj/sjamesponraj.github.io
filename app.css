@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #85ef47;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.james {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    background-color: turquoise;
+}
+
+/*.james div {
+    
+    color:white;
+    text-align: justify;
+    font-size: 4rem;
+    padding: 15px;
+    width: 40%;
+} */
+
+.james ul {
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+.james ul li {
+    padding: 6px;
+    background-color: turquoise;
+    border-color: rgb(197, 241, 237);
+    border-width: 1px;
+    border-style: solid;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+
+.james ul li:hover {
+    background-color: #85ef47;
+    cursor: pointer;
+    width: 17%;
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 1.1em;
+
+
+}
+
+.james img {
+    width: 100px;
+    border-radius: 50%;
+    border-color: #85ef47;
+    border-style: solid;
+    text-align: center;
+    margin-left: 50px;
+    filter: brightness(130%);
+}
+
+h3 {
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 2em;
+    color: #fcfafa;
+    text-align: center;
+    letter-spacing: 1.5px;
+     height: 200px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: thistle;
+    
+}
+
+.section1 .imgRight {
+    width: 300px;
+    height: 100%;
+    border-radius: 5%;
+    border-color: rgb(0, 0, 0, 0.4);
+    border-style: dashed;  
+}
+
+.section1 .imgLeft {
+    background-color: tomato;
+    width: 300px;
+    height: 100%;
+    border-radius: 50%;
+    border-color:rgb(100, 212, 247);
+    border-style: solid;  
+}
